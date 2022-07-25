@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgba(81, 81, 81, 0.8);
+    margin-top: 0;
+    height: 100vh;
+}
+
+.card {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+    transition: 0.2s;
+}
+.card:hover {
+    background-color: rgb(105, 211, 105);
+}
+
+
+.popupCopywriter {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.showCopy {
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 400px;
+    height: 560px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.popupafba {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.showafba {
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 700px;
+    height: 560px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.popupstocks {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.showstocks {
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 700px;
+    height: 560px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.popupPF {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.showPF {
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 400px;
+    height: 420px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.popupFL {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.showFL {
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 400px;
+    height: 360px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.popupCrypto {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.showCrypto {
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 700px;
+    height: 480px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.afbah1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.stocksh1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.pfpp {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.flh1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cpp {
+    margin-top: 20px;
+}
+
+.cwl1 {
+    margin-top: 100px;
+}
+
+.cwl {
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+    margin-top: 10px;
+}
+.cwl:hover {
+    background-color: green;
+}
+
+.cwh1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.closeCopy {
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+}
+
+.closeCopy1 {
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+}
+.closeCopy2 {
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+}
+
+@media screen and (max-width:991px) {
+    body {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width:1200px) {
+    .noshit {
+        height: 0px;
+    }
+  }

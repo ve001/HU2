@@ -1,0 +1,70 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.blur {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.45);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    z-index: -10;
+}
+
+.hu {
+    color: white;
+    text-decoration: line-through;
+    font-weight: 1500;
+    font-size: 55px;
+    margin-top: 5vh;
+    z-index: 1;
+}
+
+input[type="password"] {
+    margin-top: 3.5vh;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.enterbutton {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 5vh;
+}
+.enterbutton:hover {
+    color: white;
+    background-color: green;
+}
+
+.black1 {
+    top: 0;
+    width: 100%;
+    background-color: black;
+    height: 75px;
+}
+
+.black2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    height: 75px;
+}

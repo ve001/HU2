@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home/style.css">
+    <link rel="stylesheet" href="btcss/bootstrap.css">
+</head>
+
+<script src="btjs/bootstrap.js"></script>
+
+<body>
+    <div class="container text-center">
+      <div class="row noshit">
+        <div class="col mt-5"></div>
+      </div>
+        <div class="row prvired">
+            <div class="col mt-5">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img style="aspect-ratio: 4 / 3; padding: 10px;object-fit: contain;" src="home/Copywriting.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Copy Writing</h5>
+                      <a href="#" onclick="popupCopywriter()" class="btn btn-primary">Learn</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mt-5">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img style="aspect-ratio: 4 / 3; padding: 20px;object-fit:contain;" src="home/Crypto.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Crypto</h5>
+                      <a href="#" onclick="opencrytotab()" class="btn btn-primary">Learn</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mt-5">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="home/Finance.png" style="aspect-ratio: 4 / 3; padding: 20px;object-fit: contain;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Personal Finance</h5>
+                      <a href="#" onclick="PFpopup()" class="btn btn-primary">Learn</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="AmazonFBA/amazonfba.png" style="aspect-ratio: 4 / 3; padding: 20px;object-fit: contain;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Amazon FBA</h5>
+                      <a href="#" onclick="openafba()" class="btn btn-primary">Learn</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col ">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="Stocks/stocks.png" style="aspect-ratio: 4 / 3; padding: 20px;object-fit: contain;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Stocks</h5>
+                      <a href="#" onclick="showstockspopup()" class="btn btn-primary">Learn</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col ">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="Freelancing/freelancing.png" style="aspect-ratio: 4 / 3; padding: 20px;object-fit: contain;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">FreeLancing</h5>
+                      <a href="#" onclick="freelanceopup()" class="btn btn-primary">Learn</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popupCopywriter" class="popupCopywriter">
+        <div class="showCopy">
+            <h1 class="cwh1">Copywriter</h1>
+            <a href="Copywriting/copy-resources.html"><button class="cwl cwl1 btn-primary">1. Copy resources</button></a><br>
+            <a href="Copywriting/1-getting-started.html"><button class="cwl btn-primary">2. Getting started</button></a><br>
+            <a href="Copywriting/2-learning-copywriting.html"><button class="cwl btn-primary">3. Learning copywriting</button></a><br>
+            <a href="Copywriting/3-how-to-make-10kmo.html"><button class="cwl btn-primary">4. How to make 10kmo</button></a><br>
+            <a href="Copywriting/copywriting-faqs.html"><button class="cwl btn-primary">5. copywriting faqs</button></a><br>
+            <button onclick="closeCWP()" class="closeCopy btn-danger">Close</button>
+        </div>
+    </div>
+
+    <div id="popupCrypto" class="popupCrypto">
+      <div class="showCrypto">
+          <h1 class="cpp">Crypto</h1>
+          <a href="Crypto/new-crypto-intro.html"><button class="cwl cwl1 btn-primary">1. New Crypto intro</button></a>
+          <a href="Crypto/novice-tutorial .html"><button class="cwl btn-primary">2. Novice Tutorial</button></a><br>
+          <a href="Crypto/novice-faq.html"><button class="cwl btn-primary">3. Novice Fag</button></a>
+          <a href="Crypto/intermediate-tutorial.html"><button class="cwl btn-primary">4. Intermediate Tutorial</button></a><br>
+          <a href="Crypto/expert-tutorial.html"><button class="cwl btn-primary">5. Expert Tutorial</button></a>
+          <a href="Crypto/defi-intro.html"><button class="cwl btn-primary">6. Defi intro</button></a><br>
+          <a href="Crypto/defi-tutorials.html"><button class="cwl btn-primary">7. Defi Tutorials</button></a>
+          <a href="Crypto/nft-tutorials.html"><button class="cwl btn-primary">8. NFT Tutorials</button></a><br>
+          <button onclick="closeCPP()" class="closeCopy1 btn-danger">Close</button>
+      </div>
+  </div>
+
+  <div id="popupPF" class="popupPF">
+    <div class="showPF">
+        <h1 class="pfpp">Personal Finance</h1>
+        <a href="PersonalFinance/money-fundamentals.html"><button class="cwl cwl1 btn-primary">1. Money Fundamentals</button></a><br>
+        <a href="PersonalFinance/arno-money.html"><button class="cwl btn-primary">2. Arno Money</button></a><br>
+        <a href="PersonalFinance/arno-lifestyle.html"><button class="cwl btn-primary">3. Arno Lifestyle</button></a><br>
+        <button onclick="closePFPP()" class="closeCopy2 btn-danger">Close</button>
+    </div>
+</div>
+
+<div id="popupafba" class="popupafba">
+  <div class="showafba">
+      <h1 class="afbah1">Amazon FBA</h1>
+      <a href="AmazonFBA/amazonresources.html"><button class="cwl cwl1 btn-primary">1. Amazon Recources</button></a>
+      <a href="AmazonFBA/amazonstarthere.html"><button class="cwl btn-primary">2. Amazon start here</button></a><br>
+      <a href="AmazonFBA/amazonfaq.html"><button class="cwl btn-primary">3. Amazon Fag</button></a>
+      <a href="AmazonFBA/intro.html"><button class="cwl btn-primary">4. Intro</button></a><br>
+      <a href="AmazonFBA/basics.html"><button class="cwl btn-primary">5. Basics</button></a>
+      <a href="AmazonFBA/intermediate.html"><button class="cwl btn-primary">6. Intermediate</button></a><br>
+      <a href="AmazonFBA/advanced.html"><button class="cwl btn-primary">7. Advanced</button></a>
+      <a href="AmazonFBA/amazonrecap.html"><button class="cwl btn-primary">8. Amazon Recap</button></a><br>
+      <a href="AmazonFBA/ecomsuppliers.html"><button class="cwl btn-primary">9. Ecom suppliers</button></a><br>
+      <button onclick="closeAFBA()" class="closeCopy1 btn-danger">Close</button>
+  </div>
+</div>
+
+<div id="popupstocks" class="popupstocks">
+  <div class="showstocks">
+      <h1 class="stocksh1">Stocks</h1>
+      <a href="Stocks/stocksintro.html"><button class="cwl cwl1 btn-primary">1. Intro</button></a>
+      <a href="Stocks/stockstutorial1.html"><button class="cwl btn-primary">2. Tutorial 1</button></a><br>
+      <a href="Stocks/stockstutorial2.html"><button class="cwl btn-primary">3. Tutorial 2</button></a>
+      <a href="Stocks/stocksfaq.html"><button class="cwl btn-primary">4. Stocks Faq</button></a><br>
+      <a href="Stocks/macrostrategy.html"><button class="cwl btn-primary">5. Macro strategy</button></a>
+      <a href="Stocks/optionsresources.html"><button class="cwl btn-primary">6. Options resources</button></a><br>
+      <a href="Stocks/stocksresources.html"><button class="cwl btn-primary">7. Stocks resources</button></a>
+      <a href="Stocks/technicalanalysis.html"><button class="cwl btn-primary">8. Tehnical Analysis</button></a><br>
+      <a href="Stocks/tradingmindset.html"><button class="cwl btn-primary">9. Trading mindset</button></a><br>
+      <button onclick="closeStocks()" class="closeCopy1 btn-danger">Close</button>
+  </div>
+</div>
+
+<div id="popupFL" class="popupFL">
+  <div class="showFL">
+      <h1 class="flh1">Personal Finance</h1>
+      <a href="Freelancing/freelancingintro.html"><button class="cwl cwl1 btn-primary">1. Intro</button></a><br>
+      <a href="Freelancing/freelancingcourse.html"><button class="cwl btn-primary">2. Course</button></a><br>
+      <button onclick="closeFL()" class="closeCopy2 btn-danger">Close</button>
+  </div>
+</div>
+
+</body>
+
+<script src="home/script.js"></script>
+
+</html>
