@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-image: url('../home/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.select {
+    top: 7vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    height: 770px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 0px;
+}
+
+.cwl {
+    width: 90%;
+    max-width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+    margin-top: 10px;
+}
+.cwl:hover {
+    background-color: green;
+}
+
+.stocksh1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
